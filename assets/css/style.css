@@ -54,6 +54,7 @@ body {
 }
 
 /* Call-Action */
+
 .header {
     display: flex;
     flex-flow: row wrap;
@@ -79,6 +80,7 @@ body {
     color: gray;
     font-size: 20px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .header__headline a {
@@ -99,6 +101,7 @@ body {
     cursor: pointer;
 }
 
+
 .header__img {
     flex: 60%;
     margin-right: 5%;
@@ -106,6 +109,15 @@ body {
 }
 
 /* Section */
+@keyframes borderAnimation {
+    from {
+        border-bottom: 0;
+    }
+
+    to {
+        border-bottom: 5px solid hsl(322, 100%, 66%);
+    }
+}
 
 .sobre {
     padding-top: 100px;
@@ -124,6 +136,15 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+
+}
+
+.card:hover {
+    padding: 40px;
+    cursor: pointer;
+    border-bottom: 4px solid hsl(322, 100%, 66%);
+    animation: borderAnimation 1s ease-in-out;
+    transition: 1s;
 }
 
 .card__text {
@@ -144,10 +165,7 @@ body {
 
 }
 
-.card:hover {
-    padding: 40px;
-    cursor: pointer;
-}
+
 
 /* Footer */
 .footer {
