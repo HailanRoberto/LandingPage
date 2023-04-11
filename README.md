@@ -22,6 +22,8 @@
 ## Executando a página
 Para executar a página, basta abrir o arquivo index.html ou o Deploy disponibilizado, em um navegador de internet.
 
+[LandingPage](https://hailanroberto.github.io/LandingPage/) 🖥️
+
 ## Licença
 Esse projeto está sob a licença MIT. Para mais informações, leia o arquivo LICENSE.
 
