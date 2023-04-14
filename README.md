@@ -1,7 +1,7 @@
 # Landing Page
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/HailanRoberto/LandingPage/blob/main/LICENSE)
 
-> Status: Em Desenvolvimento 🔥
+> Status: Concluído ✔️
 
 ### Esse é um exemplo de uma LandingPage baseada em um desafio do Frontend Mentor.
 
