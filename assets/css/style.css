@@ -79,13 +79,14 @@ body {
     text-align: left;
     color: gray;
     font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10%;
+
 }
 
 .header__headline a {
     margin-top: 5%;
-    display: inline-block;
+    /*display: inline-block; */
     background: hsl(322, 100%, 66%);
     padding: 15px 50px;
     border-radius: 50px;
@@ -151,6 +152,7 @@ body {
     text-align: left;
     margin-left: 10%;
     max-width: 30%;
+    font-weight: 600;
 }
 
 .card__text h2 {
@@ -180,17 +182,18 @@ body {
     bottom: 30%;
     display: inline-block;
     background: hsl(191, 44%, 95%);
-    padding: 30px 150px;
+    padding: 50px 150px;
     border-radius: 10px;
 }
 
 .footer__callaction h2 {
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 10%;
 }
 
 .footer__callaction a {
     margin-top: 5%;
-    display: inline-block;
+    /*display: inline-block; */
     background: hsl(322, 100%, 66%);
     padding: 15px 50px;
     border-radius: 50px;
